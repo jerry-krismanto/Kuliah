@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-int menu,a,n,r,i,f1,f2,f3;
+int menu,n,r,i,f1,f2,f3;
 char ulang;
 do{
 system("CLS");
@@ -22,13 +22,13 @@ case 1:{
     if(r<=n){
     for(i=1;i<=n;++i){
         f1*=i;}
-    a=n-r;
-    for(i=1;i<=a;++i){
+    for(i=1;i<=(n-r);++i){
         f3*=i;}
 cout<<"Permutasi dari P("<<n<<","<<r<<") adalah: "<<f1/f3<<"\n\n";}
 else{
     cout<<"r harus lebih kecil atau sama dengan n\n";}
-break;}
+break;
+}        
 case 2:{
     cout<<"Masukkan Masalah (C(n,r)) Syarat: n>=r"<<endl;
     cout<<"Masukkan n: ";cin>>n;
@@ -41,14 +41,13 @@ case 2:{
         f1*=i;}
     for(i=1;i<=r;++i){
         f2*=i;}
-    a=n-r;
-    for(i=1;i<=a;++i){
+    for(i=1;i<=(n-r);++i){
         f3*=i;}
 cout<<"Kombinasi dari C("<<n<<","<<r<<") adalah: "<<f1/(f2*f3)<<"\n\n";}
 else{
     cout<<"r harus lebih kecil atau sama dengan n\n";}
-break;}
-
+break;
+}
 default:{
 cout<<"Pilihan Anda Tidak Valid\n\n";}
 break;}
