@@ -23,7 +23,7 @@ int isEmpty()
     else return 0;
 }
 
-void insertdata(string newnim, string newnama, char newprodi[])
+void insertdata(string newnim, char newnama[], char newprodi[])
 {
     node* temp= head;
     node* prev;
@@ -112,8 +112,8 @@ void showdata()
 int main()
 {
     int kodeprodi,menu;
-    string nim,nama;
-    char prodi[100];
+    string nim;
+    char prodi[100],nama[100];
     char ulang='y';
 
     while((ulang=='y')||(ulang=='Y')){
@@ -130,7 +130,8 @@ int main()
             cout<<"Masukkan Nim: ";
             cin>>nim;
             cout<<"Masukkan Nama: ";
-            cin>>nama;
+            cin.ignore();
+            cin.getline(nama,100);
             cout<<"Kode prodi: \n"<<"1. S1 Teknik Informatika\n"<<"2. S1 Sistem Informasi\n"<<"3. S1 Pendidikan Teknologi Informasi\n"<<"4. D4 Manajemen Informatika\n";
             cout<<"\nMasukkan Kode Prodi (urutan angkanya): ";
             cin>>kodeprodi;
