@@ -9,3 +9,5 @@
 - Buat project setiap praktikum dengan nama `TP1.4_NIM lengkap` dan `TP1.5_NIM lengkap`
 - Dalam setiap project buat package masing-masing percobaan (Tugas6.Satu, Tugas6.Dua, Tugas6.Tiga dst)
 - Dalam setiap project buat package masing-masing latihan (Latihan4.Satu, Latihan4.Dua, dst)
+
+Selamat Pusing Selamat Mengerjakan
