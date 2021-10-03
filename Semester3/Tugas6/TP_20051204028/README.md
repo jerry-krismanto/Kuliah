@@ -1,18 +1,10 @@
-## Getting Started
+## Tugas 6
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+03 October 2021
 
-## Folder Structure
+## Keterangan Tugas
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Praktikum 1.4 Struktur Kontrol dan 1.5 Java Array dengan struktur sebagai berikut :
+a. Buat project setiap praktikum dengan nama `TP1.4_NIM lengkap` dan `TP1.5_NIM lengkap`
+b. Dalam setiap project buat package masing-masing percobaan (Tugas6.Satu, Tugas6.Dua, Tugas6.Tiga dst)
+c. Dalam setiap project buat package masing-masing latihan (Latihan4.Satu, Latihan4.Dua, dst)
