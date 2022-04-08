@@ -8,5 +8,7 @@
 1. Spatial Smoothing = smoothing.py
 1. Spatial Sharpening = sharpen.py
 
+## Bruhification
+
 * Untuk latihan.py & histogram.py hasil run program di terminal masuk ke laporan
 * histogram.py laporan jadi 1 dengan laporan tugas 3
